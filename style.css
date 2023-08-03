@@ -111,6 +111,11 @@ button {
 }
 
 @media (max-width: 600px) {
+    .board {
+        grid-gap: 5px;
+        padding: 10px;
+    }
+    
     .game {
         width: 100%;
         position: relative;
